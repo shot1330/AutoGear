@@ -423,7 +423,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = 0.005, Crit = 1, SpellCrit = 1, Hit = 0.15, SpellHit = E,
 				Expertise = 0.3, Versatility = 0.8, Multistrike = 1, Mastery = 1, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = 0.25, MeleeProc = 0.25, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 1.2, Damage = 0.8
 			},
 			["Blood"] = {
@@ -434,7 +434,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = 0.005, Crit = 1, SpellCrit = 1, Hit = 0.15, SpellHit = E,
 				Expertise = 0.3, Versatility = 0.8, Multistrike = 1, Mastery = 1, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = 0.2, MeleeProc = 0.25, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 1, Damage = 1
 			},
 			["Frost"] = {
@@ -445,7 +445,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = 0.005, Crit = 1, SpellCrit = 1, Hit = 0.15, SpellHit = E,
 				Expertise = 0.3, Versatility = 0.8, Multistrike = 1, Mastery = 1, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = 0.25, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 1.2, Damage = 0.8
 			},
 			["Unholy"] = {
@@ -456,7 +456,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = 0.005, Crit = 1, SpellCrit = 1, Hit = 0.15, SpellHit = E,
 				Expertise = 0.3, Versatility = 0.8, Multistrike = 1, Mastery = 1, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = 0.33, MeleeProc = 0.2, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 1.33333, Damage = 0.66667
 			}
 		},
@@ -468,7 +468,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = E, Crit = 1.1, SpellCrit = 1.1, Hit = 1.75, SpellHit = E,
 				Expertise = 1.85, Versatility = 0.8, Multistrike = 1, Mastery = 1.5, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = 0.1, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = 1, DamageSpellProc = E, MeleeProc = 1, RangedProc = E,
 				DPS = 3.075
 			},
 			["Havoc"] = {
@@ -479,7 +479,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = E, Crit = 1.1, SpellCrit = 1.1, Hit = 1.75, SpellHit = E,
 				Expertise = 1.85, Versatility = 0.8, Multistrike = 1, Mastery = 1.5, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = 0.2, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = 1, DamageSpellProc = E, MeleeProc = 1, RangedProc = E,
 				DPS = 3.075
 			},
 			["Vengeance"] = {
@@ -490,7 +490,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = E, Crit = 1.1, SpellCrit = 1.1, Hit = 0.3, SpellHit = E,
 				Expertise = 0.4, Versatility = 0.8, Multistrike = 1, Mastery = 1, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = 0.1, MeleeProc = 0.25, RangedProc = E,
+				HealingProc = E, DamageProc = 1, DamageSpellProc = E, MeleeProc = 1, RangedProc = E,
 				DPS = 2
 			},
 			["Devourer"] = {
@@ -501,7 +501,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = 1.1, SpellCrit = 1.1, Hit = 1.75, SpellHit = 1.75,
 				Expertise = 1.85, Versatility = 0.8, Multistrike = 1, Mastery = 1.5, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = 0.33, MeleeProc = E, RangedProc = E,
+				HealingProc = E, DamageProc = 1, DamageSpellProc = 0.9, MeleeProc = 1, RangedProc = E,
 				DPS = E
 			}
 		},
@@ -513,7 +513,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = 0.9, SpellCrit = 0.9, Hit = 0.9, SpellHit = 0.9,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 1.45, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 0.33, DamageProc = 0.33, DamageSpellProc = 0.33, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = 1, DamageProc = 1, DamageSpellProc = 1, MeleeProc = E, RangedProc = E,
 				DPS = 1
 			},
 			["Balance"] = {
@@ -523,7 +523,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = 0.1, SpellCrit = 1, Hit = 0.1, SpellHit = 1,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 0.6, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 0.05, DamageProc = 0.33, DamageSpellProc = 0.33, MeleeProc = E, RangedProc = E,
+				HealingProc = E, DamageProc = 1.0, DamageSpellProc = 1.0, MeleeProc = E, RangedProc = E,
 				DPS = 0.01
 			},
 			["Feral"] = {
@@ -533,7 +533,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = E, Crit = 1.1, SpellCrit = E, Hit = 0.3, SpellHit = E,
 				Expertise = 0.4, Versatility = 0.8, Multistrike = 1, Mastery = 1, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 0.05, DamageProc = 0.33, DamageSpellProc = E, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = 1, DamageSpellProc = E, MeleeProc = 1, RangedProc = E,
 				DPS = 0.8
 			},
 			["Feral Combat"] = { -- Classic spec name
@@ -543,7 +543,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = E, Crit = 1.1, SpellCrit = E, Hit = 0.3, SpellHit = E,
 				Expertise = 0.4, Versatility = 0.8, Multistrike = 1, Mastery = 1, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 0.05, DamageProc = 0.33, DamageSpellProc = E, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = 1, DamageSpellProc = E, MeleeProc = 1, RangedProc = E,
 				DPS = 0.8
 			},
 			["Guardian"] = {
@@ -553,7 +553,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = E, Crit = 1.1, SpellCrit = E, Hit = 0.3, SpellHit = E,
 				Expertise = 0.4, Versatility = 0.8, Multistrike = 1, Mastery = 1, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 0.05, DamageProc = 0.33, DamageSpellProc = E, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = 1, DamageSpellProc = E, MeleeProc = 1, RangedProc = E,
 				DPS = 0.8
 			},
 			["Restoration"] = {
@@ -563,50 +563,8 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = E, SpellCrit = 0.5, Hit = E, SpellHit = E,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 0.65, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 0.33, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
+				HealingProc = 1, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 0.01
-			}
-		},
-		["EVOKER"] = {
-			["None"] = {
-				Strength = E, Agility = E, Stamina = E, Intellect = 4.14, Spirit = E,
-				Armor = E, Dodge = E, Parry = E, Block = E, Defense = E,
-				SpellPower = 4, SpellPenetration = E, Haste = 3.47, Mp5 = E,
-				AttackPower = E, ArmorPenetration = E, Crit = 2.65, Hit = E,
-				Expertise = E, Versatility = 2.89, Multistrike = E, Mastery = 0.24, ExperienceGained = E,
-				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 1.33, DamageProc = 1.33, DamageSpellProc = 1.33, MeleeProc = E, RangedProc = E,
-				DPS = E
-			},
-			["Devastation"] = {
-				Strength = E, Agility = E, Stamina = E, Intellect = 4.14, Spirit = E,
-				Armor = E, Dodge = E, Parry = E, Block = E, Defense = E,
-				SpellPower = 4, SpellPenetration = E, Haste = 3.47, Mp5 = E,
-				AttackPower = E, ArmorPenetration = E, Crit = 2.65, Hit = E,
-				Expertise = E, Versatility = 2.89, Multistrike = E, Mastery = 0.24, ExperienceGained = E,
-				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 1.33, DamageSpellProc = 1.33, MeleeProc = E, RangedProc = E,
-				DPS = E
-			},
-			["Preservation"] = {
-				Strength = E, Agility = E, Stamina = E, Intellect = 4.14, Spirit = E,
-				Armor = E, Dodge = E, Parry = E, Block = E, Defense = E,
-				SpellPower = 4, SpellPenetration = E, Haste = 3.47, Mp5 = E,
-				AttackPower = E, ArmorPenetration = E, Crit = 2.65, Hit = E,
-				Expertise = E, Versatility = 2.89, Multistrike = E, Mastery = 0.24, ExperienceGained = E,
-				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 1.33, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
-				DPS = E
-			},
-			["Augmentation"] = {
-				Strength = E, Agility = E, Stamina = E, Intellect = 4.14, Spirit = E,
-				Armor = E, Dodge = E, Parry = E, Block = E, Defense = E,
-				SpellPower = 4, SpellPenetration = E, Haste = 3.47, Mp5 = E,
-				AttackPower = E, ArmorPenetration = E, Crit = 2.65, Hit = E,
-				Expertise = E, Versatility = 2.89, Multistrike = E, Mastery = 0.24, ExperienceGained = E,
-				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 1.33, DamageSpellProc = 1.33, MeleeProc = E, RangedProc = E,
-				DPS = E
 			}
 		},
 		["HUNTER"] = {
@@ -617,7 +575,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = 0.8, Crit = 0.8, SpellCrit = E, Hit = 0.4, SpellHit = E,
 				Expertise = 0.1, Versatility = 0.8, Multistrike = 1, Mastery = E, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = E, MeleeProc = 0.1, RangedProc = 0.33,
+				HealingProc = E, DamageProc = 1.0, DamageSpellProc = E, MeleeProc = E, RangedProc = 1,
 				DPS = 2
 			},
 			["Beast Mastery"] = {
@@ -627,7 +585,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = 0.8, Crit = 2, SpellCrit = E, Hit = 1.4, SpellHit = E,
 				Expertise = 0.1, Versatility = 0.8, Multistrike = 1, Mastery = 1.5, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = E, MeleeProc = E, RangedProc = 0.33,
+				HealingProc = E, DamageProc = 1.0, DamageSpellProc = E, MeleeProc = E, RangedProc = 1,
 				DPS = 2
 			},
 			["Marksmanship"] = {
@@ -637,7 +595,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = E, Crit = 1.66, SpellCrit = E, Hit = 3.49, SpellHit = E,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 1.38, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = E, MeleeProc = E, RangedProc = 0.33,
+				HealingProc = E, DamageProc = 1, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 2
 			},
 			["Survival"] = {
@@ -647,7 +605,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = E, Crit = 1.37, SpellCrit = E, Hit = 3.19, SpellHit = E,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 1.27, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = 0.1, MeleeProc = 0.25, RangedProc = 0.1,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 2
 			}
 		},
@@ -659,7 +617,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = E, SpellCrit = 1.3, Hit = E, SpellHit = 1.25,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 1.4, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = 0.33, MeleeProc = E, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 0.01
 			},
 			["Arcane"] = {
@@ -669,7 +627,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = E, SpellCrit = 1.3, Hit = E, SpellHit = 1.25,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 0.9, ExperienceGained = 100,
 				RedSockets = 10, YellowSockets = 8, BlueSockets = 7, MetaSockets = 20,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = 0.33, MeleeProc = E, RangedProc = E,
+				HealingProc = E, DamageProc = 1, DamageSpellProc = 1, MeleeProc = E, RangedProc = E,
 				DPS = 0.01
 			},
 			["Fire"] = {
@@ -679,7 +637,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = E, SpellCrit = 2.4, Hit = E, SpellHit = 1.75,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 0.9, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = 0.33, MeleeProc = E, RangedProc = E,
+				HealingProc = E, DamageProc = 1, DamageSpellProc = 1, MeleeProc = E, RangedProc = E,
 				DPS = 0.01
 			},
 			["Frost"] = {
@@ -689,7 +647,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = E, SpellCrit = 1.3, Hit = E, SpellHit = 1.25,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 0.9, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = 0.33, MeleeProc = E, RangedProc = E,
+				HealingProc = E, DamageProc = 1, DamageSpellProc = 1, MeleeProc = E, RangedProc = E,
 				DPS = 0.01
 			}
 		},
@@ -701,7 +659,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = E, Crit = 1.1, SpellCrit = 1.1, Hit = 1.75, SpellHit = 1.75,
 				Expertise = 1.85, Versatility = 0.8, Multistrike = 1, Mastery = 1.5, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 0.1, DamageProc = 0.33, DamageSpellProc = 0.1, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = 1, DamageSpellProc = E, MeleeProc = 1, RangedProc = E,
 				DPS = 3.075
 			},
 			["Brewmaster"] = {
@@ -712,7 +670,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = E, Crit = 1.1, SpellCrit = 1.1, Hit = 0.3, SpellHit = 0.3,
 				Expertise = 0.4, Versatility = 0.8, Multistrike = 1, Mastery = 1, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = E, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = 1, DamageSpellProc = E, MeleeProc = 1, RangedProc = E,
 				DPS = 1, Damage = 1
 			},
 			["Windwalker"] = {
@@ -723,7 +681,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = E, Crit = 1.1, SpellCrit = 1.1, Hit = 1.75, SpellHit = 1.75,
 				Expertise = 1.85, Versatility = 0.8, Multistrike = 1, Mastery = 1.5, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 0.05, DamageProc = 0.33, DamageSpellProc = 0.05, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = 1, DamageSpellProc = E, MeleeProc = 1, RangedProc = E,
 				DPS = 3.075
 			},
 			["Mistweaver"] = {
@@ -733,7 +691,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = 0.6, SpellCrit = 0.6, Hit = E, SpellHit = E,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 0.65, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 0.33, DamageProc = 0.05, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
+				HealingProc = 1, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 0.13333, Damage = 0.06667
 			}
 		},
@@ -745,7 +703,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = E, Crit = 0.98, SpellCrit = 0.98, Hit = 1.77, SpellHit = 0.77,
 				Expertise = 1.3, Versatility = 0.8, Multistrike = 1, Mastery = 1.13, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 0.33, DamageProc = 0.33, DamageSpellProc = 0.33, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 1.33333, Damage = 0.66667
 			},
 			["Holy"] = {
@@ -755,7 +713,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = E, SpellCrit = 0.1, Hit = E, SpellHit = 0.1,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 0.3, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 0.33, DamageProc = 0.1, DamageSpellProc = 0.1, MeleeProc = 0.05, RangedProc = E,
+				HealingProc = 1, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 0.01
 			},
 			["Protection"] = {
@@ -766,7 +724,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 0.4, ArmorPenetration = 0.1, Crit = 0.25, SpellCrit = E, Hit = E,
 				Expertise = 0.2, Versatility = 0.8, Multistrike = 1, Mastery = 0.05, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 0.05, DamageProc = 0.33, DamageSpellProc = 0.25, SpellProc = 0.25, MeleeProc = 0.1, RangedProc = E,
+				MeleeProc = 1.0, SpellProc = 0.5, DamageProc = 1.0,
 				DPS = 1.33333, Damage = 0.66667
 			},
 			["Retribution"] = {
@@ -777,7 +735,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = E, Crit = 0.98, SpellCrit = 0.1, Hit = 1.77, SpellHit = 0.1,
 				Expertise = 1.3, Versatility = 0.8, Multistrike = 1, Mastery = 1.13, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 0.05, DamageProc = 0.33, DamageSpellProc = E, MeleeProc = 0.25, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 1, Damage = 1
 			}
 		},
@@ -789,7 +747,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = E, SpellCrit = 1.6, Hit = E, SpellHit = 1.95,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 1.7, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 0.33, DamageProc = 0.33, DamageSpellProc = 0.33, MeleeProc = E, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 0.01
 			},
 			["Discipline"] = {
@@ -799,7 +757,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = E, SpellCrit = 0.25, Hit = E, SpellHit = E,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 0.5, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 0.33, DamageProc = 0.1, DamageSpellProc = 0.1, MeleeProc = E, RangedProc = E,
+				HealingProc = 1.0, DamageProc = 0.5, DamageSpellProc = 0.5, MeleeProc = E, RangedProc = E,
 				DPS = 0.01
 			},
 			["Holy"] = {
@@ -809,7 +767,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = E, SpellCrit = 0.47, Hit = E, SpellHit = E,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 0.36, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 0.33, DamageProc = 0.1, DamageSpellProc = 0.1, MeleeProc = E, RangedProc = E,
+				HealingProc = 1, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 0.01
 			},
 			["Shadow"] = {
@@ -819,7 +777,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = E, SpellCrit = 1, Hit = E, SpellHit = 1,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 1, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 0.1, DamageProc = 0.33, DamageSpellProc = 0.33, MeleeProc = E, RangedProc = E,
+				HealingProc = 0.3, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 0.01
 			}
 		},
@@ -832,7 +790,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = E, Crit = 1.1, SpellCrit = E, Hit = 1.75, SpellHit = E,
 				Expertise = 1.85, Versatility = 0.8, Multistrike = 1, Mastery = 1.5, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = E, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 3.075
 			},
 			["Assassination"] = {
@@ -843,7 +801,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = E, Crit = 1.1, SpellCrit = E, Hit = 1.75, SpellHit = E,
 				Expertise = 1.1, Versatility = 0.8, Multistrike = 1, Mastery = 1.3, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = E, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 2
 			},
 			["Outlaw"] = {
@@ -854,7 +812,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = E, Crit = 1.1, SpellCrit = E, Hit = 1.75, SpellHit = E,
 				Expertise = 1.85, Versatility = 0.8, Multistrike = 1, Mastery = 1.5, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = E, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 3.075
 			},
 			["Combat"] = {
@@ -865,7 +823,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = E, Crit = 1.1, SpellCrit = E, Hit = 1.75, SpellHit = E,
 				Expertise = 1.85, Versatility = 0.8, Multistrike = 1, Mastery = 1.5, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = E, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 3.075
 			},
 			["Subtlety"] = {
@@ -876,7 +834,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 0.4, ArmorPenetration = E, Crit = 1.1, SpellCrit = E, Hit = 0.6, SpellHit = E,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 0.9, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = E, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = 1, DamageSpellProc = E, MeleeProc = 1, RangedProc = E,
 				DPS = 2
 			}
 		},
@@ -888,7 +846,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = 1, Crit = 1.11, SpellCrit = 1.11, Hit = 2.7, SpellHit = 2.7,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 1.62, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = 0.33, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 1.2, Damage = 0.8
 			},
 			["Elemental"] = {
@@ -898,7 +856,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = 0.9, SpellCrit = 0.9, Hit = E, SpellHit = E,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 1, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = 0.33, MeleeProc = E, RangedProc = E,
+				HealingProc = E, DamageProc = 1, DamageSpellProc = 1, MeleeProc = E, RangedProc = E,
 				DPS = 0.13333, Damage = 0.06667
 			},
 			["Enhancement"] = {
@@ -909,7 +867,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1, ArmorPenetration = 0.4, Crit = 1, SpellCrit = 1, Hit = 0.8, SpellHit = 0.8,
 				Expertise = 0.3, Versatility = 0.8, Multistrike = 0.95, Mastery = 1, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = E, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = 1, DamageSpellProc = E, MeleeProc = 1, RangedProc = E,
 				DPS = 1.2, Damage = 0.8
 			},
 			["Restoration"] = {
@@ -919,7 +877,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = 0.4, SpellCrit = 0.4, Hit = E, SpellHit = E,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 0.55, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = 0.33, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 0.01
 			}
 		},
@@ -931,7 +889,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = E, SpellCrit = 4, Hit = E, SpellHit = 7,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 1.24, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = 0.33, MeleeProc = E, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 0.01
 			},
 			["Affliction"] = {
@@ -941,7 +899,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = E, SpellCrit = 4, Hit = E, SpellHit = 7,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 1.24, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = 0.33, MeleeProc = E, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 0.01
 			},
 			["Demonology"] = {
@@ -951,7 +909,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = E, SpellCrit = 4, Hit = E, SpellHit = 7,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 2.57, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = 0.33, MeleeProc = E, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 0.01
 			},
 			["Destruction"] = {
@@ -961,7 +919,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = E, SpellCrit = 6, Hit = E, SpellHit = 7,
 				Expertise = E, Versatility = 0.8, Multistrike = 1, Mastery = 1.4, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = 0.33, MeleeProc = E, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 0.01
 			}
 		},
@@ -973,7 +931,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 0.88, ArmorPenetration = E, Crit = 1.34, SpellCrit = E, Hit = 2, SpellHit = E,
 				Expertise = 1.46, Versatility = 0.8, Multistrike = 1, Mastery = 0.9, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = E, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 1.33333, Damage = 0.66667
 			},
 			["Arms"] = {
@@ -984,7 +942,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 0.88, ArmorPenetration = E, Crit = 1.34, SpellCrit = E, Hit = 2, SpellHit = E,
 				Expertise = 1.46, Versatility = 0.8, Multistrike = 1, Mastery = 0.9, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = E, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 1, Damage = 1
 			},
 			["Fury"] = {
@@ -995,7 +953,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = 1.36, ArmorPenetration = E, Crit = 1.98, SpellCrit = E, Hit = 2.47, SpellHit = E,
 				Expertise = 2.47, Versatility = 0.8, Multistrike = 1, Mastery = 1.57, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = E, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 1.2, Damage = 0.8
 			},
 			["Protection"] = {
@@ -1006,7 +964,7 @@ if TOC_VERSION_CURRENT < TOC_VERSION_CATA then
 				AttackPower = E, ArmorPenetration = E, Crit = 0.4, SpellCrit = E, Hit = 0.02, SpellHit = E,
 				Expertise = 0.04, Versatility = 0.8, Multistrike = 1, Mastery = 1, ExperienceGained = 100,
 				RedSockets = E, YellowSockets = E, BlueSockets = E, MetaSockets = E,
-				HealingProc = E, DamageProc = 0.33, DamageSpellProc = E, MeleeProc = 0.33, RangedProc = E,
+				HealingProc = E, DamageProc = E, DamageSpellProc = E, MeleeProc = E, RangedProc = E,
 				DPS = 1.33333, Damage = 0.66667
 			}
 		}
@@ -1615,55 +1573,55 @@ end
 
 AutoGearOverrideSpecs = {
 	{
-		["label"] = AutoGearClassList["DEATHKNIGHT"],
+		["label"] = "Death Knight",
 		["subLabels"] = {"None", "Blood", "Frost", "Unholy"}
 	},
 	{
-		["label"] = AutoGearClassList["DEMONHUNTER"],
+		["label"] = "Demon Hunter",
 		["subLabels"] = {"None", "Havoc", "Vengeance", "Devourer"}
 	},
 	{
-		["label"] = AutoGearClassList["DRUID"],
+		["label"] = "Druid",
 		["subLabels"] = {"None", "Balance", "Feral", "Guardian", "Restoration"}
 	},
 	{
-		["label"] = AutoGearClassList["EVOKER"],
+		["label"] = "Evoker",
 		["subLabels"] = {"None", "Devastation", "Preservation", "Augmentation"}
 	},
 	{
-		["label"] = AutoGearClassList["HUNTER"],
+		["label"] = "Hunter",
 		["subLabels"] = {"None", "Beast Mastery", "Marksmanship", "Survival"}
 	},
 	{
-		["label"] = AutoGearClassList["MAGE"],
+		["label"] = "Mage",
 		["subLabels"] = {"None", "Arcane", "Fire", "Frost"}
 	},
 	{
-		["label"] = AutoGearClassList["MONK"],
+		["label"] = "Monk",
 		["subLabels"] = {"None", "Brewmaster", "Mistweaver", "Windwalker"}
 	},
 	{
-		["label"] = AutoGearClassList["PALADIN"],
+		["label"] = "Paladin",
 		["subLabels"] = {"None", "Holy", "Protection", "Retribution"}
 	},
 	{
-		["label"] = AutoGearClassList["PRIEST"],
+		["label"] = "Priest",
 		["subLabels"] = {"None", "Discipline", "Holy", "Shadow"}
 	},
 	{
-		["label"] = AutoGearClassList["ROGUE"],
+		["label"] = "Rogue",
 		["subLabels"] = {"None", "Assassination", "Combat", "Outlaw", "Subtlety"}
 	},
 	{
-		["label"] = AutoGearClassList["SHAMAN"],
+		["label"] = "Shaman",
 		["subLabels"] = {"None", "Enhancement", "Elemental", "Restoration"}
 	},
 	{
-		["label"] = AutoGearClassList["WARLOCK"],
+		["label"] = "Warlock",
 		["subLabels"] = {"None", "Affliction", "Demonology", "Destruction"}
 	},
 	{
-		["label"] = AutoGearClassList["WARRIOR"],
+		["label"] = "Warrior",
 		["subLabels"] = {"None", "Arms", "Fury", "Protection"}
 	}
 }
@@ -3096,61 +3054,162 @@ function AutoGearIs1hWorthwhile(i)
 	return AutoGearBestItems[i].score > minScore and AutoGearBestItems[i].score > AutoGearBestItems[INVSLOT_TABARD].score * (i == INVSLOT_MAINHAND and 0.15 or 0.05)
 end
 
+function AutoGearSelectBestBagReplaceSlot(info)
+	if not info or not info.validGearSlots then
+		return nil, nil
+	end
+
+	local bestReplaceSlot = nil
+	local bestReplaceScore = nil
+
+	for _, gearSlot in pairs(info.validGearSlots) do
+		local slotData = AutoGearBestItems[gearSlot]
+		if slotData and slotData.info then
+			local slotInfo = slotData.info
+			local slotScore = slotData.score or 0
+
+			-- 빈 슬롯 / 미착용 / 사용불가 슬롯 우선
+			if slotInfo.empty or slotInfo.unusable then
+				return gearSlot, slotScore
+			end
+
+			-- 가방 슬롯은 "가장 낮은 점수"를 가진 슬롯을 교체 대상으로 선택
+			if bestReplaceSlot == nil or slotScore < bestReplaceScore then
+				bestReplaceSlot = gearSlot
+				bestReplaceScore = slotScore
+			end
+		end
+	end
+
+	return bestReplaceSlot, bestReplaceScore
+end
+
 --companion function to AutoGearConsiderAllItems
 function AutoGearConsiderItem(info, bag, slot, rollOn, chooseReward)
 	if info.empty
 	or (info.guid and AutoGearBestItemsAlreadyAdded[info.guid])
 	or (info.isAmmoBag
-	and	AutoGearBestItems[INVSLOT_RANGED].info.isRangedWeapon)
+	and AutoGearBestItems[INVSLOT_RANGED].info.isRangedWeapon)
 	and (not AutoGearIsAmmoBagValidForRangedWeapon(info, AutoGearBestItems[INVSLOT_RANGED].info)) then
 		return
 	end
-	if (info.isMount and (not info.alreadyKnown)) then return true end
+
+	if (info.isMount and (not info.alreadyKnown)) then
+		return true
+	end
+
 	if (info.usable or (rollOn and info.Within5levels)) then
 		local score = AutoGearDetermineItemScore(info)
+
 		if info.isGear and info.validGearSlots then
-			local firstValidGearSlot = info.validGearSlots[1]
-			local lowestScoringValidGearSlot = firstValidGearSlot
-			local lowestScoringValidGearSlotScore = AutoGearBestItems[firstValidGearSlot].score or 0
+			-- Bag items: compare against ALL valid bag slots explicitly
+			if info.invType == Enum.InventoryType.IndexBagType then
+				local score = AutoGearDetermineItemScore(info)
+				local bestReplaceSlot, bestReplaceScore = AutoGearSelectBestBagReplaceSlot(info)
+
+				if bestReplaceSlot ~= nil then
+					local targetData = AutoGearBestItems[bestReplaceSlot]
+					local targetInfo = targetData and targetData.info or nil
+					local targetScore = (targetData and targetData.score) or 0
+
+					if ((score > targetScore) and (not info.isAmmoBag))
+					or (targetInfo and targetInfo.empty)
+					or (targetInfo and targetInfo.unusable) then
+						if info.guid then
+							AutoGearBestItemsAlreadyAdded[info.guid] = 1
+						end
+
+						AutoGearBestItems[bestReplaceSlot].info = info
+						AutoGearBestItems[bestReplaceSlot].score = score
+						AutoGearBestItems[bestReplaceSlot].equipped = nil
+						AutoGearBestItems[bestReplaceSlot].bag = bag
+						AutoGearBestItems[bestReplaceSlot].slot = slot
+						AutoGearBestItems[bestReplaceSlot].rollOn = rollOn
+						AutoGearBestItems[bestReplaceSlot].chooseReward = chooseReward
+						return true
+					end
+				end
+
+				return
+			end
+			local bestReplaceSlot = nil
+			local bestReplaceScore = nil
+
 			for _, gearSlot in pairs(info.validGearSlots) do
-				local skipThisSlot = false
-				for _, otherGearSlot in pairs(info.validGearSlots) do
-					if gearSlot ~= otherGearSlot then
-						if not AutoGearIsGearPairEquippableTogether(info, AutoGearBestItems[otherGearSlot].info) then
-							skipThisSlot = true
+				local canUseThisSlot = true
+				local currentSlotData = AutoGearBestItems[gearSlot]
+
+				-- 슬롯 데이터가 없으면 비교 불가
+				if not currentSlotData then
+					canUseThisSlot = false
+				else
+					-- 이 슬롯에 아이템을 넣는다고 가정했을 때,
+					-- 같은 validGearSlots 내 다른 슬롯들과 공존 가능한지 검사
+					for _, otherGearSlot in pairs(info.validGearSlots) do
+						if gearSlot ~= otherGearSlot then
+							local otherSlotData = AutoGearBestItems[otherGearSlot]
+							if otherSlotData and otherSlotData.info then
+								if not AutoGearIsGearPairEquippableTogether(info, otherSlotData.info) then
+									canUseThisSlot = false
+									break
+								end
+							end
 						end
 					end
 				end
-				if not skipThisSlot and
-				((not AutoGearBestItems[gearSlot]) or
-				(AutoGearBestItems[gearSlot].info.empty or
-				(not AutoGearBestItems[gearSlot].score) or
-				(AutoGearBestItems[gearSlot].score < lowestScoringValidGearSlotScore))) then
-					lowestScoringValidGearSlot = gearSlot
-					lowestScoringValidGearSlotScore = AutoGearBestItems[gearSlot] and AutoGearBestItems[gearSlot].score or 0
+
+				if canUseThisSlot then
+					local currentScore = 0
+
+					if currentSlotData and currentSlotData.score then
+						currentScore = currentSlotData.score
+					end
+
+					-- empty / unusable 슬롯은 최우선 교체 대상
+					local isCurrentEmpty = currentSlotData and currentSlotData.info and currentSlotData.info.empty
+					local isCurrentUnusable = currentSlotData and currentSlotData.info and currentSlotData.info.unusable
+
+					if isCurrentEmpty or isCurrentUnusable then
+						bestReplaceSlot = gearSlot
+						bestReplaceScore = currentScore
+						break
+					end
+
+					-- 가능한 슬롯들 중 가장 점수가 낮은 슬롯 선택
+					if (bestReplaceSlot == nil) or (currentScore < bestReplaceScore) then
+						bestReplaceSlot = gearSlot
+						bestReplaceScore = currentScore
+					end
 				end
 			end
 
-			if (
-				((score > lowestScoringValidGearSlotScore) and (not info.isAmmoBag))
-				or AutoGearBestItems[lowestScoringValidGearSlot].info.empty
-				or AutoGearBestItems[lowestScoringValidGearSlot].info.unusable
-				or (info.isAmmoBag
-					and AutoGearIsAmmoBagValidForBestKnownRangedWeapon(info)
-					and ((score > lowestScoringValidGearSlotScore)
-					or (not AutoGearIsAmmoBagValidForBestKnownRangedWeapon(AutoGearBestItems[lowestScoringValidGearSlot].info)))
-				)
-			) then
-				-- AutoGearPrint(info.link.." bag and slot: "..tostring(bag or "nil").." "..tostring(slot or "nil"),0)
-				if info.guid then AutoGearBestItemsAlreadyAdded[info.guid] = 1 end
-				AutoGearBestItems[lowestScoringValidGearSlot].info = info
-				AutoGearBestItems[lowestScoringValidGearSlot].score = score
-				AutoGearBestItems[lowestScoringValidGearSlot].equipped = nil
-				AutoGearBestItems[lowestScoringValidGearSlot].bag = bag
-				AutoGearBestItems[lowestScoringValidGearSlot].slot = slot
-				AutoGearBestItems[lowestScoringValidGearSlot].rollOn = rollOn
-				AutoGearBestItems[lowestScoringValidGearSlot].chooseReward = chooseReward
-				return true
+			if bestReplaceSlot ~= nil then
+				local targetData = AutoGearBestItems[bestReplaceSlot]
+				local targetScore = (targetData and targetData.score) or 0
+				local targetInfo = targetData and targetData.info or nil
+
+				if (
+					((score > targetScore) and (not info.isAmmoBag))
+					or (targetInfo and targetInfo.empty)
+					or (targetInfo and targetInfo.unusable)
+					or (info.isAmmoBag
+						and AutoGearIsAmmoBagValidForBestKnownRangedWeapon(info)
+						and ((score > targetScore)
+						or (targetInfo and (not AutoGearIsAmmoBagValidForBestKnownRangedWeapon(targetInfo)))))
+				) then
+					if info.guid then
+						AutoGearBestItemsAlreadyAdded[info.guid] = 1
+					end
+
+					AutoGearBestItems[bestReplaceSlot].info = info
+					AutoGearBestItems[bestReplaceSlot].score = score
+					AutoGearBestItems[bestReplaceSlot].equipped = nil
+					AutoGearBestItems[bestReplaceSlot].bag = bag
+					AutoGearBestItems[bestReplaceSlot].slot = slot
+					AutoGearBestItems[bestReplaceSlot].rollOn = rollOn
+					AutoGearBestItems[bestReplaceSlot].chooseReward = chooseReward
+					return true
+				end
 			end
 		end
 	end
@@ -3685,12 +3744,12 @@ function AutoGearReadItemInfo(inventoryID, lootRollID, container, slot, questRew
 			if textLeftText == ITEM_UNIQUE or textLeftText == ITEM_UNIQUE_EQUIPPABLE then
 				info.unique = 1
 			elseif string.find(textLeftText, ITEM_UNIQUE_EQUIPPABLE_SANITIZED_PATTERN) then
-				local uniqueType, numEquippable = string.match(textLeftText, ITEM_UNIQUE_EQUIPPABLE_SANITIZED_PATTERN.."[：:]+ ?(%C-) ?[%(（]-(%d+)[%)）]-$")
+				local uniqueType, numEquippable = string.match(textLeftText, ITEM_UNIQUE_EQUIPPABLE_SANITIZED_PATTERN..": ([^%(]+) %(([0-9]+)%)")
 				if uniqueType and numEquippable then
 					info.uniqueType = uniqueType
 					info.numEquippable = tonumber(numEquippable)
 				end
-				AutoGearPrint("AutoGear: uniqueType, numEquippable in \""..textLeftText.."\": \""..tostring(uniqueType).."\", "..tostring(numEquippable), 3)
+				AutoGearPrint("AutoGear: uniqueType, numEquippable in \""..textLeftText.."\": \""..uniqueType.."\", "..tostring(numEquippable), 3)
 			end
 			local multiplier = 1.0
 			if string.find(text, "chance to") and not string.find(text, "improves") then multiplier = multiplier/3.0 end
@@ -3698,16 +3757,14 @@ function AutoGearReadItemInfo(inventoryID, lootRollID, container, slot, questRew
 			-- don't count greyed out set bonus lines
 			if r < 0.8 and g < 0.8 and b < 0.8 and string.find(text, "set:") then multiplier = 0 end
 			-- note: these proc checks may not be correct for all cases
-			if string.find(text, "chance") or string.find(text, "use:") then
-				if string.find(text, "deal damage") then multiplier = multiplier * (AutoGearCurrentWeighting.DamageProc or 0) end
-				if string.find(text, "damage and healing") then multiplier = multiplier * math.max((AutoGearCurrentWeighting.HealingProc or 0), (AutoGearCurrentWeighting.DamageProc or 0))
-				elseif string.find(text, "healing spells") then multiplier = multiplier * (AutoGearCurrentWeighting.HealingProc or 0)
-				elseif string.find(text, "damage spells") then multiplier = multiplier * (AutoGearCurrentWeighting.DamageSpellProc or 0)
-				end
-				if string.find(text, "melee and ranged") then multiplier = multiplier * math.max((AutoGearCurrentWeighting.MeleeProc or 0), (AutoGearCurrentWeighting.RangedProc or 0))
-				elseif string.find(text, "melee attacks") then multiplier = multiplier * (AutoGearCurrentWeighting.MeleeProc or 0)
-				elseif string.find(text, "ranged attacks") then multiplier = multiplier * (AutoGearCurrentWeighting.RangedProc or 0)
-				end
+			if string.find(text, "deal damage") then multiplier = multiplier * (AutoGearCurrentWeighting.DamageProc or 0) end
+			if string.find(text, "damage and healing") then multiplier = multiplier * math.max((AutoGearCurrentWeighting.HealingProc or 0), (AutoGearCurrentWeighting.DamageProc or 0))
+			elseif string.find(text, "healing spells") then multiplier = multiplier * (AutoGearCurrentWeighting.HealingProc or 0)
+			elseif string.find(text, "damage spells") then multiplier = multiplier * (AutoGearCurrentWeighting.DamageSpellProc or 0)
+			end
+			if string.find(text, "melee and ranged") then multiplier = multiplier * math.max((AutoGearCurrentWeighting.MeleeProc or 0), (AutoGearCurrentWeighting.RangedProc or 0))
+			elseif string.find(text, "melee attacks") then multiplier = multiplier * (AutoGearCurrentWeighting.MeleeProc or 0)
+			elseif string.find(text, "ranged attacks") then multiplier = multiplier * (AutoGearCurrentWeighting.RangedProc or 0)
 			end
 			local value = tonumber(string.match(text, "-?[0-9]+%.?[0-9]*")) or 0
 			if value then
@@ -4364,6 +4421,101 @@ function AutoGearPutItemInEmptyBagSlot()
 	end
 end
 
+function AutoGearInventoryBagSlotToContainerID(invSlot)
+	if (not invSlot) then return nil end
+	if invSlot < AutoGearFirstEquippableBagSlot or invSlot > AutoGearLastEquippableBagSlot then
+		return nil
+	end
+	return (invSlot - AutoGearFirstEquippableBagSlot + 1)
+end
+
+function AutoGearFindTemporaryEmptyBagSlot(excludedContainer)
+	-- 반환값: destContainer, destSlot
+	-- destContainer: 0(backpack) or 1..NUM_BAG_SLOTS
+	-- destSlot: 해당 컨테이너 내부의 실제 빈 슬롯 번호
+
+	local function FindEmptySlotInContainer(containerId)
+		local numSlots = GetContainerNumSlots(containerId)
+		if not numSlots or numSlots <= 0 then
+			return nil
+		end
+
+		for s = 1, numSlots do
+			local itemId = GetContainerItemID(containerId, s)
+			if not itemId then
+				return s
+			end
+		end
+
+		return nil
+	end
+
+	-- 0 = backpack
+	do
+		local freeSlots, bagType = GetContainerNumFreeSlots(BACKPACK_CONTAINER)
+		if (freeSlots and freeSlots > 0) and (bagType == 0) then
+			local emptySlot = FindEmptySlotInContainer(BACKPACK_CONTAINER)
+			if emptySlot then
+				return BACKPACK_CONTAINER, emptySlot
+			end
+		end
+	end
+
+	-- other equipped bags (excluding the bag being replaced)
+	for bagId = 1, NUM_BAG_SLOTS do
+		if bagId ~= excludedContainer then
+			local freeSlots, bagType = GetContainerNumFreeSlots(bagId)
+			if (freeSlots and freeSlots > 0) and (bagType == 0) then
+				local emptySlot = FindEmptySlotInContainer(bagId)
+				if emptySlot then
+					return bagId, emptySlot
+				end
+			end
+		end
+	end
+
+	return nil, nil
+end
+
+function AutoGearTryMoveBagItemToTemporarySlot(sourceContainer, sourceSlot, excludedContainer)
+	local tempContainer, tempSlot = AutoGearFindTemporaryEmptyBagSlot(excludedContainer)
+	if (not tempContainer) or (not tempSlot) then
+		return false
+	end
+
+	-- Pick up the bag item from its current location
+	PickupContainerItem(sourceContainer, sourceSlot)
+        AutoGearPrint("AutoGear: temp-move source=("..tostring(sourceContainer)..","..tostring(sourceSlot)..") -> dest=("..tostring(tempContainer)..","..tostring(tempSlot)..")", 1)
+	-- If nothing is on cursor, pickup failed
+	if not CursorHasItem() then
+		return false
+	end
+
+	-- Place the bag item into a specific empty slot (important: do NOT use PutItemInBag for bag items)
+	PickupContainerItem(tempContainer, tempSlot)
+
+	-- If still holding item, move failed -> clear cursor to avoid weird follow-up behavior
+	if CursorHasItem() then
+		ClearCursor()
+		return false
+	end
+
+	return true
+end
+
+function AutoGearSortBagsSafe()
+	if C_Container and C_Container.SortBags then
+		C_Container.SortBags()
+	elseif SortBags then
+		SortBags()
+	elseif SortBagsRightToLeft then
+		SortBagsRightToLeft()
+	else
+		return false
+	end
+	return true
+end
+
 function AutoGearScan()
 	AutoGearSetStatWeights()
 	if (not AutoGearCurrentWeighting) then
@@ -4588,17 +4740,9 @@ end
 function AutoGearTooltipHook(tooltip, tooltipData)
 	if (not AutoGearDB.ScoreInTooltips) then return end
 	local tooltipName = tooltip:GetName()
-	if (not (
-		tooltipName=="GameTooltip"
-		or tooltipName=="ShoppingTooltip1"
-		or tooltipName=="ShoppingTooltip2"
-		or tooltipName=="ItemRefTooltip"
-		or tooltipName=="AtlasLootTooltip"
-	)) then
-		return
-	end
+	if (not (tooltipName=="GameTooltip" or tooltipName=="ShoppingTooltip1" or tooltipName=="ShoppingTooltip2" or tooltipName=="ItemRefTooltip")) or (not tooltip:IsVisible()) then return end
 	if (not AutoGearCurrentWeighting) then AutoGearSetStatWeights() end
-	local isAComparisonTooltip = (tooltipName ~= "GameTooltip") and (tooltipName ~= "AtlasLootTooltip")
+	local isAComparisonTooltip = tooltipName ~= "GameTooltip"
 	local name, link, equipped, guid
 	if tooltip.GetPrimaryTooltipData or tooltip.GetTooltipData then
 		if not tooltipData then
@@ -4841,9 +4985,6 @@ else
 	ShoppingTooltip1:HookScript("OnTooltipSetItem", AutoGearTooltipHook)
 	ShoppingTooltip2:HookScript("OnTooltipSetItem", AutoGearTooltipHook)
 	ItemRefTooltip:HookScript("OnTooltipSetItem", AutoGearTooltipHook)
-	if AtlasLootTooltip then
-		AtlasLootTooltip:HookScript("OnTooltipSetItem", AutoGearTooltipHook)
-	end
 end
 
 function AutoGearQueueLocalUpdate()
@@ -4948,10 +5089,49 @@ function AutoGearMain()
 									AutoGearBrokenAction = curAction
 									AutoGearPrint("Error: The current equip action has either no container or no slot! This should never happen, so it must be a bug. It's now been saved to global variable AutoGearBrokenAction, so try \"/dump AutoGearBrokenAction\" and send the output to the AutoGear author.",0)
 									table.remove(AutoGearActionQueue, i)
+								end								
+-- special handling for bag upgrades:
+								-- if the replacement bag item is inside the bag being replaced,
+								-- do NOT try temporary manual moves (can be unreliable for bag items).
+								-- Instead, use Auto Sort and retry a limited number of times.
+								local replacingBagContainer = AutoGearInventoryBagSlotToContainerID(curAction.replaceSlot)
+
+								if replacingBagContainer
+								and curAction.container
+								and (curAction.container == replacingBagContainer) then
+									if (not curAction.bagSwapSortRetryCount) then
+										curAction.bagSwapSortRetryCount = 0
+									end
+
+									if (not curAction.lastBagSwapSortAttemptAt) then
+										curAction.lastBagSwapSortAttemptAt = 0
+									end
+
+									-- Throttle log spam / sort spam
+									if GetTime() < curAction.lastBagSwapSortAttemptAt + 0.7 then
+										curAction.t = GetTime() + 0.3
+									else
+										curAction.lastBagSwapSortAttemptAt = GetTime()
+
+										if curAction.bagSwapSortRetryCount < 3 and AutoGearSortBagsSafe() then
+											curAction.bagSwapSortRetryCount = curAction.bagSwapSortRetryCount + 1
+
+											AutoGearPrint("AutoGear: Bag upgrade blocked because the new bag is inside the bag being replaced. Sorting bags and retrying ("..curAction.bagSwapSortRetryCount.."/3).", 1)
+
+											-- Force re-resolve item location after sorting
+											curAction.container = nil
+											curAction.slot = nil
+											curAction.t = GetTime() + 1.0
+										else
+											AutoGearPrint("AutoGear: Bag upgrade skipped after sorting retries. The replacement bag is still inside the bag being replaced.", 0)
+											table.remove(AutoGearActionQueue, i)
+										end
+									end
+								else
+									PickupContainerItem(curAction.container, curAction.slot)
+									EquipCursorItem(curAction.replaceSlot)
+									curAction.ensuringEquipped = 1
 								end
-								PickupContainerItem(curAction.container, curAction.slot)
-								EquipCursorItem(curAction.replaceSlot)
-								curAction.ensuringEquipped = 1
 							end
 						else
 							table.remove(AutoGearActionQueue, i)
